@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Profil Masjid </title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback" />
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css" />
+    <!-- Theme style -->
+    <link rel="stylesheet" href="dist/css/adminlte.css" />
+</head>
+
+<body class="hold-transition sidebar-collapse layout-top-nav">
+    <div class="wrapper">
+        <!-- Navbar -->
+        <header class="d-flex justify-content-center main-header navbar navbar-expand-md navbar-light navbar-white">
+            <a href="index.html" class="navbar-brand">
+                <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+                    style="opacity: 0.8" />
+                <span class="brand-text font-weight-light">Masjid Kota Depok</span>
+            </a>
+        </header>
+        <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
+            <div class="container">
+                <button class="navbar-toggler order-1" type="button" data-toggle="collapse"
+                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse order-3" id="navbarCollapse">
+                    <!-- Left navbar links -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="berita.html" class="nav-link">Berita</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="masjid.html" class="nav-link">Data Masjid</a>
+                        </li>
+                        <li class=" nav-item">
+                            <a href="registrasi-masjid.html" class="nav-link">Registrasi Masjid</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="tentang.html" class="nav-link">Tentang kami</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Right navbar links -->
+                <div class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto">
+                    <a href="admin" class="ml-3 btn btn-primary">Login</a>
+                </div>
+            </div>
+        </nav>
+        <!-- /.navbar -->
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Main content -->
+                <div class="col-md-12">
+                    <h6><a href="registrasi-masjid.html">Registrasi Masjid Anda</a></h6>
+                    <div class="col-md-12 card p-3">
+                        <h4 class="text-monospace pt-2">Form Registrasi Masjid</h4>
+                        <table class="d-flex justify-content-center text-right pt-2">
+                            <tr>
+                                <td class="py-2">Nama Masjid</td>
+                                <td>:</td>
+                                <td class="px-3"><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td class="py-2">kecamatan</td>
+                                <td>:</td>
+                                <td class="px-3">
+                                    <input type="text" list="kecamatan">
+                                    <datalist id="kecamatan">
+                                        <option value="Sukmajaya">
+                                        <option value="Beji">
+                                        <option value="Bojongsari">
+                                        <option value="Cilodong">
+                                    </datalist>
+                                </td>
+                                <td>kelurahan</td>
+                                <td>:</td>
+                                <td class="px-3">
+                                    <input type="text" list="kelurahan">
+                                    <datalist id="kelurahan">
+                                        <option value="Mekarjaya">
+                                        <option value="Beji Timur">
+                                        <option value="Kemiri Muka">
+                                        <option value="Pondok Cina">
+                                    </datalist>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="py-2">Deskripsi Fasilitas</td>
+                                <td>:</td>
+                                <td class="px-3" colspan="4"><textarea name="" id="" cols="64" rows="1"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td class="py-2">Nama Pengurus DKM</td>
+                                <td>:</td>
+                                <td class="px-3"><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td class="py-2">No. HP/Telepon</td>
+                                <td>:</td>
+                                <td class="px-3"><input type="number"></td>
+                            </tr>
+                            <tr>
+                                <td class="py-2">Email</td>
+                                <td>:</td>
+                                <td class="px-3"><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td class="py-2">Alamat Web</td>
+                                <td>:</td>
+                                <td class="px-3"><input type="email" value="http://"></td>
+                            </tr>
+                            <tr>
+                                <td class="py-2">Alamat Lengkap</td>
+                                <td>:</td>
+                                <td class="px-3" colspan="4"><textarea name="" id="" cols="64" rows="1"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td class="py-2">Latitude, Longtitude</td>
+                                <td>:</td>
+                                <td class="px-3"><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <button type="button" class="btn btn-success">Daftar</button>
+                                    <button type="button" class="btn btn-danger">Batal</button>                        
+                                </td>
+                            </tr>                            
+                        </table>
+                    </div>
+                </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container-fluid -->
+    </div>
+    <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+
+    <!-- Control Sidebar -->
+    <aside class="control-sidebar control-sidebar-dark">
+        <!-- Control sidebar content goes here -->
+    </aside>
+    <!-- /.control-sidebar -->
+
+    <!-- Main Footer -->
+    <footer class="main-footer" style="text-align: center;">
+        <!-- To the right -->
+        <!-- Default to the left -->
+        <strong>Copyright &copy; 2023
+            <a href="#">Data Mesjid Kota Depok</a>.</strong>
+        All rights reserved.
+    </footer>
+    </div>
+    <!-- ./wrapper -->
+
+    <!-- REQUIRED SCRIPTS -->
+
+    <!-- jQuery -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="dist/js/adminlte.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script>
+        // <![CDATA[  <-- For SVG support
+        if ("WebSocket" in window) {
+            (function () {
+                function refreshCSS() {
+                    var sheets = [].slice.call(document.getElementsByTagName("link"));
+                    var head = document.getElementsByTagName("head")[0];
+                    for (var i = 0; i < sheets.length; ++i) {
+                        var elem = sheets[i];
+                        var parent = elem.parentElement || head;
+                        parent.removeChild(elem);
+                        var rel = elem.rel;
+                        if (
+                            (elem.href && typeof rel != "string") ||
+                            rel.length == 0 ||
+                            rel.toLowerCase() == "stylesheet"
+                        ) {
+                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, "");
+                            elem.href =
+                                url +
+                                (url.indexOf("?") >= 0 ? "&" : "?") +
+                                "_cacheOverride=" +
+                                new Date().valueOf();
+                        }
+                        parent.appendChild(elem);
+                    }
+                }
+                var protocol =
+                    window.location.protocol === "http:" ? "ws://" : "wss://";
+                var address =
+                    protocol + window.location.host + window.location.pathname + "/ws";
+                var socket = new WebSocket(address);
+                socket.onmessage = function (msg) {
+                    if (msg.data == "reload") window.location.reload();
+                    else if (msg.data == "refreshcss") refreshCSS();
+                };
+                if (
+                    sessionStorage &&
+                    !sessionStorage.getItem("IsThisFirstTime_Log_From_LiveServer")
+                ) {
+                    console.log("Live reload enabled.");
+                    sessionStorage.setItem("IsThisFirstTime_Log_From_LiveServer", true);
+                }
+            })();
+        } else {
+            console.error(
+                "Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading."
+            );
+        }
+      // ]]>
+    </script>
+</body>
+
+</html>
