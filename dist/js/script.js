@@ -80,3 +80,14 @@ var pieChart = new Chart(pieChartCanvas, {
   data: pieData,
   options: pieOptions,
 });
+function Login() {
+  let email = document.getElementById("email").value;
+  let password = document.getElementById("password").value;
+  if (email == "admin@admin.com"&& password=="admin1234"){
+      window.alert("anda berasil login")
+      window.location.replace("beranda.html")
+  }else{
+      window.alert("email atau password salah")
+      window.location.replace("index.html")
+  }
+}
