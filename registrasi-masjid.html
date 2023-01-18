@@ -64,84 +64,109 @@
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
             <!-- Main content -->
-                <div class="col-md-12">
-                    <h6><a href="registrasi-masjid.html">Registrasi Masjid Anda</a></h6>
-                    <div class="col-md-12 card p-3">
-                        <h4 class="text-monospace pt-2">Form Registrasi Masjid</h4>
-                        <table class="d-flex justify-content-center text-right pt-2">
+            
+            <!-- Main content -->
+            <div class="content">
+                <div class="container">
+
+                    <div class="content-header">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <h1 class="m-0">Berita Masjid</h1>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ol class="breadcrumb float-sm-right">
+                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                        <li class="breadcrumb-item active">berita</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card card-primary card-outline">
+                        <div class="card-header">
+                            <h1 class="card-title">Berita Populer</h1>
+                        </div>
+                        <div class="card-body">
+                            
+                        <table cellpadding="4">
                             <tr>
-                                <td class="py-2">Nama Masjid</td>
+                                <td>Nama Masjid</td>
                                 <td>:</td>
-                                <td class="px-3"><input type="text"></td>
+                                <td width="85%"><input class="form-control" type="text"></td>
                             </tr>
                             <tr>
-                                <td class="py-2">kecamatan</td>
+                                <td>kecamatan</td>
                                 <td>:</td>
-                                <td class="px-3">
-                                    <input type="text" list="kecamatan">
-                                    <datalist id="kecamatan">
-                                        <option value="Sukmajaya">
-                                        <option value="Beji">
-                                        <option value="Bojongsari">
-                                        <option value="Cilodong">
-                                    </datalist>
+                                <td>
+                                    <select  class="form-control" id="kecamatan">
+                                        <option value="Sukmajaya">Sukmajaya</option>
+                                        <option value="Beji">Beji</option>
+                                        <option value="Bojongsari">Bojongsari</option>
+                                        <option value="Cilodong">Cilodong</option>
+                                    </select>
                                 </td>
+                            </tr>
+                            <tr>
                                 <td>kelurahan</td>
                                 <td>:</td>
-                                <td class="px-3">
-                                    <input type="text" list="kelurahan">
-                                    <datalist id="kelurahan">
-                                        <option value="Mekarjaya">
-                                        <option value="Beji Timur">
-                                        <option value="Kemiri Muka">
-                                        <option value="Pondok Cina">
-                                    </datalist>
+                                <td>
+                                    <select  class="form-control" id="kelurahan">
+                                        <option value="Mekarjaya">Mekarjaya</option>
+                                        <option value="Beji Timur">Beji Timur</option>
+                                        <option value="Kemiri Muka">Kemiri Muka</option>
+                                        <option value="Pondok Cina">Pondok Cina</option>
+                                    </select>
                                 </td>
                             </tr>
                             <tr>
-                                <td class="py-2">Deskripsi Fasilitas</td>
+                                <td>Deskripsi Fasilitas</td>
                                 <td>:</td>
-                                <td class="px-3" colspan="4"><textarea name="" id="" cols="64" rows="1"></textarea></td>
+                                <td><textarea class="form-control" name="" id=""></textarea></td>
                             </tr>
                             <tr>
-                                <td class="py-2">Nama Pengurus DKM</td>
+                                <td>Nama Pengurus DKM</td>
                                 <td>:</td>
-                                <td class="px-3"><input type="text"></td>
+                                <td><input class="form-control" type="text"></td>
                             </tr>
                             <tr>
-                                <td class="py-2">No. HP/Telepon</td>
+                                <td>No. HP/Telepon</td>
                                 <td>:</td>
-                                <td class="px-3"><input type="number"></td>
+                                <td><input class="form-control" type="number"></td>
                             </tr>
                             <tr>
-                                <td class="py-2">Email</td>
+                                <td>Email</td>
                                 <td>:</td>
-                                <td class="px-3"><input type="text"></td>
+                                <td><input class="form-control" type="text"></td>
                             </tr>
                             <tr>
-                                <td class="py-2">Alamat Web</td>
+                                <td>Alamat Web</td>
                                 <td>:</td>
-                                <td class="px-3"><input type="email" value="http://"></td>
+                                <td><input class="form-control" type="email" value="http://"></td>
                             </tr>
                             <tr>
-                                <td class="py-2">Alamat Lengkap</td>
+                                <td>Alamat Lengkap</td>
                                 <td>:</td>
-                                <td class="px-3" colspan="4"><textarea name="" id="" cols="64" rows="1"></textarea></td>
+                                <td><textarea class="form-control" name="" id=""></textarea></td>
                             </tr>
                             <tr>
-                                <td class="py-2">Latitude, Longtitude</td>
+                                <td>Latitude, Longtitude</td>
                                 <td>:</td>
-                                <td class="px-3"><input type="text"></td>
+                                <td><input class="form-control" type="text"></td>
                             </tr>
                             <tr>
-                                <td colspan="2">
+                                <td colspan="3" class="text-center pt-3">
                                     <button type="button" class="btn btn-success">Daftar</button>
                                     <button type="button" class="btn btn-danger">Batal</button>                        
                                 </td>
                             </tr>                            
                         </table>
+                        </div>
                     </div>
                 </div>
+            </div>
             <!-- /.row -->
         </div>
         <!-- /.container-fluid -->
