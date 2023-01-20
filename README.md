@@ -26,10 +26,9 @@ Serta Projek ini bisa selesai karena referensi dari beberapa platform antara lai
 3. csstricks
 4. E-Book pembelajaran Pemweb STTNF 
 
-dan lain lain yang gak bisa Kami masukan karena takut ke panjangan
-Terima kasih 
-ini link video penjelasan 
-https://youtu.be/w0GvIKDd6zA
-Link demo
-https://kreasi.nurulfikri.ac.id/abdu22103ti/project2/
-Link Repository Github
+dan lain lain yang gak bisa Kami masukan karena takut ke panjangan<br>
+Terima kasih <br>
+ini link video penjelasan <br>
+https://youtu.be/w0GvIKDd6zA <br>
+Link demo<br>
+https://kreasi.nurulfikri.ac.id/abdu22103ti/project2/ <br>
