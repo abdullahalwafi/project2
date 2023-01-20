@@ -1,4 +1,5 @@
-![Uploading Screenshot_21.png…]()
+
+<img src="https://github.com/abdullahalwafi/project2/blob/main/Screenshot_21.png" alt="Alt text" title="Optional title">
  
 Oke disini kami akan menjelaskan tentang projek dua kami yang berjudul Data Directory Masjid.
 
